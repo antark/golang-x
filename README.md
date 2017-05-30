@@ -5,16 +5,21 @@
 
 <code>
     now := time.Now()
+
     format := "yyyy-MM-dd HH:mm:ss"
+
     value := FormatTime(now, format)
+
     fmt.Printf("now of format %v is %v\n", format, value)
 </code>
 
-<code>
+<pre>
     value := "2017-05-30 15:30:59"
+
     format := "yyyy-MM-dd HH:mm:ss"
+
     time, _ := Parse(value, format)
-</code>
+</pre>
 
 
 ###### 排序
