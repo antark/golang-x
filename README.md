@@ -3,7 +3,7 @@
 ###### 时间处理
 <sup><sub>1. 支持 yyyy-MM-dd HH:mm:ss 格式的日期处理</sub></sup><br/>
 
-<code>
+<code><pre>
     now := time.Now()
 
     format := "yyyy-MM-dd HH:mm:ss"
@@ -11,15 +11,15 @@
     value := FormatTime(now, format)
 
     fmt.Printf("now of format %v is %v\n", format, value)
-</code>
+</pre></code>
 
-<pre>
+<code><pre>
     value := "2017-05-30 15:30:59"
 
     format := "yyyy-MM-dd HH:mm:ss"
 
     time, _ := Parse(value, format)
-</pre>
+</pre></code>
 
 
 ###### 排序
